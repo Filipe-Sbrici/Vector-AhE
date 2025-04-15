@@ -55,23 +55,23 @@
 
     if ($random == 0)
     {
-        echo"$azul[$randomico]";
+        echo"$azul[$radd]";
     }
     else if ($random == 1)
     {
-        echo"$vermelho[$randomico]";
+        echo"$vermelho[$radd]";
     }
     else if ($random == 2)
     {
-        echo"$verde[$randomico]";
+        echo"$verde[$radd]";
     }
     else if ($random == 3)
     {
-        echo"$roxo[$randomico]";
+        echo"$roxo[$radd]";
     }
     else 
     {
-        echo"$amarelo[$randomico]";
+        echo"$amarelo[$radd]";
     }
 
 ?>
