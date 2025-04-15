@@ -7,7 +7,7 @@
     <link href="styles.css" rel="stylesheet" >
 </head>
 <body>
-<h1>NÚMERO DA SORTE</h1>
+<h1>MENSAGEM ENCORAJADORA</h1>
 <div class = "chickenjockey">
 
 <?php
@@ -18,15 +18,15 @@
     $sant = ["Santos, a magia do futebol está em nossas veias! Vamos em busca de mais uma vitória!", "A história do Peixe é repleta de lendas! Vamos juntos criar mais um capítulo de glórias!", "Cada jogo é uma nova chance de mostrar nossa força! Avante, Santos!", "A paixão da nossa torcida é o que nos move! Vamos juntos em busca do triunfo!", "Com talento e determinação, o Santos sempre brilha! Vamos, Peixe!"];
     $random = rand(0, 4);
 
-    if (time == 1)
+    if ($time == 1)
     {
         echo"$pau[$random]";
     }
-    else if (time == 2)
+    else if ($time == 2)
     {
         echo"$cor[$random]";
     }
-    else if (time == 3)
+    else if ($time == 3)
     {
         echo"$spau[$random]";
     }

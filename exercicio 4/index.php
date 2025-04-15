@@ -7,7 +7,7 @@
     <link href="styles.css" rel="stylesheet" >
 </head>
 <body>
-<h1>NÚMERO DA SORTE</h1>
+<h1>MENSAGEM ENCORAJADORA</h1>
 
 <form action="calcular.php" method="post">
   <p>Escolha um dos times a seguir:</p>
