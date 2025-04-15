@@ -11,10 +11,10 @@
 
 <form action="calcular.php" method="post">
   <p>Escolha um dos times a seguir:</p>
-  <h2><input type="radio" name="time" required>Palmeiras</h2>
-  <h2><input type="radio" name="time" required>Corinthians</h2>
-  <h2><input type="radio" name="time" required>São Paulo</h2>
-  <h2><input type="radio" name="time" required>Santos</h2>
+  <h2><input type="radio" name="time" value = "1" required>Palmeiras</h2>
+  <h2><input type="radio" name="time" value = "2" required>Corinthians</h2>
+  <h2><input type="radio" name="time" value = "3" required>São Paulo</h2>
+  <h2><input type="radio" name="time" value = "4" required>Santos</h2>
   
   <button type="submit">Enviar</button>
 </form>
