@@ -18,7 +18,10 @@ $base = rand(0, $num);
 echo "<h2>Número aleatório: $base</h2>";
 
 ?>
+
+<input type="hidden" name="num" value="<?php echo $num; ?>">
 <button type="submit">Denovo</button>
+
 </form>
 </div>
 </body>
