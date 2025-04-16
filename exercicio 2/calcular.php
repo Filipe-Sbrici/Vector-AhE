@@ -10,12 +10,10 @@
 <div class = "chickenjockey">
 <h1>NÚMERO ALEATÓRIO</h1>
 <form method="post">
-    
-</form>
 
 <?php
-$random = $_POST["num"]
-$base = rand(0, "num");
+$num = $_POST["num"];
+$base = rand(0, $num);
 
 echo "<h2>Número aleatório: $base</h2>";
 
